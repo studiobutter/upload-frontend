@@ -80,7 +80,7 @@ export default function UploadForm() {
             checked={confirmed}
             onChange={(e) => setConfirmed(e.target.checked)}
           />
-          Confirm these are the files to upload
+          I confirmed that these are the correct files to upload and have confirmed that the task provided by the client was completed.
         </label>
 
         <button type="submit" disabled={!confirmed}>
