@@ -154,3 +154,25 @@ body {
   text-align: center;
   font-weight: bold;
 }
+
+.footer {
+  margin-top: 3rem;
+  padding: 1rem;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 0.9rem;
+  border-top: 1px solid #333;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer a:hover {
+  color: #ddd;
+}
