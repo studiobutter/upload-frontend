@@ -12,7 +12,20 @@ function App() {
         <span className="separator">|</span>
         <h1 className="page-title">Upload Files</h1>
       </header>
+
       <UploadForm />
+
+      <footer className="footer">
+        <a href="https://github.com/studiobutter/upload-api" target="_blank" rel="noopener noreferrer">
+          GitHub Source Code (Backend)
+        </a>
+        <a href="https://github.com/studiobutter/upload-frontend" target="_blank" rel="noopener noreferrer">
+          GitHub Source Code (Frontend)
+        </a>
+        <a href="https://www.cloudflare.com" target="_blank" rel="noopener noreferrer">
+          Powered by Cloudflare
+        </a>
+      </footer>
     </div>
   );
 }
